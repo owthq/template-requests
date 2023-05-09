@@ -1,0 +1,43 @@
+name: Template Request
+description: Request a template
+title: "[TR]: "
+labels: ["template-request"]
+assignees:
+  - fakerybakery
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please note that we may refuse your template requests. Do not expect any royalties or credit mentions for your design requests.
+  - type: input
+    id: template-title
+    attributes:
+      label: Template Title
+      description: What might this template be called?
+      placeholder: i.e. super-old-2010s
+    validations:
+      required: true
+  - type: textarea
+    id: template-description
+    attributes:
+      label: Please describe (in detail) your template request.
+      description: Please describe colors, fonts, etc.
+      placeholder: Verdana font, with gradients from #003992 to #270092
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: (Optional): Upload designs, screenshots, etc.
+      description: Drag and drop/upload and select files into the textarea, along with descriptions
+      placeholder: Drag your files here...
+    validations:
+      required: false
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Agreement
+      description: By submitting this request, you agree that no royalties or credits must be paid for your idea, and the idea may be used commercially by OWT
+      options:
+        - label: I agree
+          required: true
