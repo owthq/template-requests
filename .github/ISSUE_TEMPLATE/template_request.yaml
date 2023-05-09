@@ -28,7 +28,7 @@ body:
   - type: textarea
     id: screenshots
     attributes:
-      label: Optional: Upload designs, screenshots, etc.
+      label: Optional - Upload designs, screenshots, etc.
       description: Drag and drop/upload and select files into the textarea, along with descriptions
       placeholder: Drag your files here...
     validations:
