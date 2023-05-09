@@ -1,2 +1,2 @@
 # template-requests
-Have a template request? Open an issue here!
+Please open a GitHub Issue to request a template.
